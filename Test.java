@@ -21,7 +21,7 @@ public static void main(String[] args) {
 	e=7;
 	System.out.println(e);//3
 	System.out.println(f);//7
-	//참조자료형의 변수 복사->의치(번지) 복사
+	//참조자료형의 변수 복사->위치(번지) 복사
 	int[] g = {5,6,7};
 	int[] h=g;
 	g[0]=9;
